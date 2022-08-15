@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
 
         val appBarConfiguration = AppBarConfiguration
-            .Builder(R.id.shoeListFragment)
+            .Builder(R.id.shoeListFragment, R.id.loginFragment)
             .build()
 
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration)
